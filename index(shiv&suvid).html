@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <body>
+            <header style="background-color: bisque">
+            <div class="navbar">
+                <div class="navbar-left">
+            <h3>Chemestrix</h3>
+            </div>
+            <div class="navbar-right">
+                    <a class="a" href="#"><h4>About us</h4></a>
+                    </div>
+                    <div class="navbar-right">
+                    <a class="a" href="#"><h4>Contact us</h4></a>
+                </div>
+            </div>
+            </div>
+            </header>
+
+            <div id="a" class= "login" onclick="stop()">
+                <h1>User Login</h1>
+                <form>
+                  <p><b> Username</b></p> 
+                <input type="text" name="" placeholder="Enter username">
+                <br>
+                  <p> <b>Password</b></p>   
+                <input type="password" name="" placeholder="Enter password">
+                <br>
+                <br>
+                <input type="submit" name="" value="login">    
+                </form>
+            </div>
+            
+<script>
+    var x=0;
+    myvar=setInterval(bg_color,4000);
+    function bg_color()
+    {
+     switch(x)
+     {
+         case 0 : document.getElementById("a").style.backgroundColor="rgba(255,0,0,.2)"; x++; break;
+         case 1: document.getElementById("a").style.backgroundColor="rgba(0, 102, 255,.2)"; x++; break;
+         case 2 : document.getElementById("a").style.backgroundColor="rgba(255, 51, 153,.3)"; x++; break;
+         case 3 : document.getElementById("a").style.backgroundColor="rgba(255,0,0,.3)"; x++; break;
+         case 4 : document.getElementById("a").style.backgroundColor="rgba(255,215,0,.3)"; x=0; break;
+     }   
+    }
+    function stop(){
+    clearInterval(myvar);
+}
+    
+</script>
+        </body>
+    </head>
+</html>
