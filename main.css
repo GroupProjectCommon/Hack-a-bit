@@ -1,0 +1,26 @@
+body {
+    background: blue;
+    margin: 30px 50px;
+}
+
+.chem-table {
+    background: red;
+    width: inherit;
+    height: inherit;
+}
+
+#reactant-1, #reactant-2 {
+    float: left;
+    position: absolute;
+    z-index: 10;
+}
+
+#conical-flask {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
