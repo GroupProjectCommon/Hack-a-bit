@@ -1,20 +1,38 @@
 body {
-    background: rgb(100,0,100);
     margin: 30px 50px;
+    background: #87ceeb;
 }
 
 .chem-table {
-    background: red;
-    width: inherit;
-    height: inherit;
+    background: #f5e79e;
+    width: auto;
+    height: 190px;
 }
 
-#reactant-1, #reactant-2 {
-    float: left;
+#reactant-1 {
+    float: right;
     position: absolute;
     z-index: 10;
+    left:470px;
 }
-
+#reactant-2{
+    float: right;
+    position: absolute;
+    z-index: 10;
+    left: 100px;
+}
+#reactant-3{
+    float: right;
+    position: absolute;
+    z-index: 10;
+    left: 200px;
+}
+#reactant-4{
+    float: right;
+    position: absolute;
+    z-index: 10;
+    left: 340px;
+}
 #conical-flask {
     display: block;
     width: 200px;
